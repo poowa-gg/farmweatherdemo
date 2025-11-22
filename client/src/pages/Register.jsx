@@ -60,9 +60,9 @@ export default function Register() {
   };
 
   return (
-    <div className="container mx-auto px-4 py-12">
-      <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-8">
-        <h1 className="text-3xl font-bold mb-6 text-center">Register for Free Weather Alerts</h1>
+    <div className="container mx-auto px-4 py-6 md:py-12">
+      <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-6 md:p-8">
+        <h1 className="text-2xl md:text-3xl font-bold mb-6 text-center">Register for Free Weather Alerts</h1>
         
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>

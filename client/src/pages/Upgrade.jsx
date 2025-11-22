@@ -34,11 +34,11 @@ export default function Upgrade() {
   };
 
   return (
-    <div className="container mx-auto px-4 py-12">
+    <div className="container mx-auto px-4 py-6 md:py-12">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold text-center mb-12">Upgrade to Premium</h1>
+        <h1 className="text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12">Upgrade to Premium</h1>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
+        <div className="grid md:grid-cols-2 gap-6 md:gap-8 mb-8 md:mb-12">
           {/* Free Plan */}
           <div className="bg-white p-8 rounded-lg shadow-md">
             <h3 className="text-2xl font-bold mb-4">Free Plan</h3>
@@ -96,8 +96,8 @@ export default function Upgrade() {
         </div>
 
         {/* Payment Form */}
-        <div className="bg-white p-8 rounded-lg shadow-lg max-w-md mx-auto">
-          <h2 className="text-2xl font-bold mb-6 text-center">Upgrade Now</h2>
+        <div className="bg-white p-6 md:p-8 rounded-lg shadow-lg max-w-md mx-auto">
+          <h2 className="text-xl md:text-2xl font-bold mb-6 text-center">Upgrade Now</h2>
           
           <form onSubmit={handleUpgrade} className="space-y-4">
             <div>

@@ -51,8 +51,8 @@ export default function Dashboard() {
   }
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-8">Your Farm Weather Dashboard</h1>
+    <div className="container mx-auto px-4 py-6 md:py-8">
+      <h1 className="text-2xl md:text-3xl font-bold mb-6 md:mb-8">Your Farm Weather Dashboard</h1>
 
       {/* Active Alerts */}
       {alerts.length > 0 && (
@@ -87,8 +87,8 @@ export default function Dashboard() {
 
       {/* 7-Day Forecast */}
       <div>
-        <h2 className="text-2xl font-semibold mb-4">7-Day Forecast</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+        <h2 className="text-xl md:text-2xl font-semibold mb-4">7-Day Forecast</h2>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
           {forecast.map((day, i) => (
             <WeatherCard key={i} day={day} />
           ))}
