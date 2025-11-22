@@ -53,8 +53,8 @@ Add to `.env`: `MONGODB_URI=mongodb://localhost:27017/farmweather`
    - Test Public Key (starts with `pk_test_`)
 5. Add to `.env`:
    ```
-   PAYSTACK_SECRET_KEY=sk_test_xxxxx
-   PAYSTACK_PUBLIC_KEY=pk_test_xxxxx
+   PAYSTACK_SECRET_KEY=sk_test_your_test_key_here
+   PAYSTACK_PUBLIC_KEY=pk_test_your_test_key_here
    ```
 
 **Test Card for Demo:**
@@ -109,8 +109,8 @@ SMS_API_URL=https://api.ng.termii.com/api/sms/send
 JWT_SECRET=your_generated_jwt_secret_from_script
 
 # Payment (OPTIONAL for demo, use TEST keys)
-PAYSTACK_SECRET_KEY=sk_test_xxxxx
-PAYSTACK_PUBLIC_KEY=pk_test_xxxxx
+PAYSTACK_SECRET_KEY=sk_test_your_test_key_here
+PAYSTACK_PUBLIC_KEY=pk_test_your_test_key_here
 
 # Frontend URL
 FRONTEND_URL=http://localhost:3000

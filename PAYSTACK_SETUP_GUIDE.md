@@ -39,16 +39,16 @@ For development/testing, use TEST keys:
 
 ```env
 # Paystack Test Keys (for development)
-PAYSTACK_SECRET_KEY=sk_test_xxxxxxxxxxxxxxxxxxxxxxxxxx
-PAYSTACK_PUBLIC_KEY=pk_test_xxxxxxxxxxxxxxxxxxxxxxxxxx
+PAYSTACK_SECRET_KEY=sk_test_your_test_secret_key_here
+PAYSTACK_PUBLIC_KEY=pk_test_your_test_public_key_here
 ```
 
 For production, use LIVE keys:
 
 ```env
 # Paystack Live Keys (for production)
-PAYSTACK_SECRET_KEY=sk_live_xxxxxxxxxxxxxxxxxxxxxxxxxx
-PAYSTACK_PUBLIC_KEY=pk_live_xxxxxxxxxxxxxxxxxxxxxxxxxx
+PAYSTACK_SECRET_KEY=sk_live_your_live_secret_key_here
+PAYSTACK_PUBLIC_KEY=pk_live_your_live_public_key_here
 ```
 
 ## Step 4: Test Your Integration
